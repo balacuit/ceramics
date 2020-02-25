@@ -6,6 +6,7 @@
 <meta http-equiv="refresh" content="{{ page.redirect_secs | default: 3 }}; url={{ page.redirect_url | default: http://xiemclaycenter.com }}">
 </head>
 <body>
-{{ content }}
+<h1>{{ page.title }}</h1>
+Redirecting in {{ page.redirect_secs }} seconds to <a href="{{ page.redirect_url }}">{{ page.redirect_url }}</a>
 </body>
 </html>
